@@ -1,6 +1,6 @@
 .tab {
-    border: 1px solid rgb(112, 112, 112);
-    background-color: #545454;
+    border: 1px solid rgb(149, 149, 149);
+    background-color: #858585;
     overflow: hidden;
   }
 
@@ -15,18 +15,17 @@
   }
 
   .tab button:hover {
-    background-color: rgb(203, 203, 203);
+    background-color: rgb(223, 223, 223);
   }
   
   .tab button.active {
-    background-color: rgb(181, 181, 181);
+    background-color: rgb(205, 205, 205);
   }
   
-  /* Style the tab content */
   .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid rgb(181, 181, 181);
+    border: 1px solid rgb(206, 206, 206);
     border-top: none;
   }
 
@@ -114,6 +113,41 @@
     transform: scale(1.05);
   }
 
-  .switchButton{
-    color:rgb(255, 0, 0);
+  .switchButton1{
+    color: rgb(255, 0, 0);
+  }
+
+  .switchButton2{
+    color: rgb(0, 0, 0);
+  }
+
+  .resume{
+    max-height: 90%;
+    max-width: 90%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(72, 255, 0);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
   }

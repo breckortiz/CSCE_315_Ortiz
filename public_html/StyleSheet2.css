@@ -22,7 +22,6 @@
     background-color: rgb(181, 181, 181);
   }
   
-  /* Style the tab content */
   .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -117,17 +116,73 @@
     transform: scale(1.05);
   }
 
-  .switchButton{
-    color: rgb(0, 207, 253);
+  .switchButton1{
+    color: rgb(0, 0, 0);
+  }
+
+  .switchButton2{
+    color: rgb(255, 0, 0);
   }
 
   .parent {
     margin: 1rem;
     padding: 2rem 2rem;
     text-align: center;
+    flex-direction: row;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
   .child {
     display: inline-block;
     padding: 1rem 1rem;
     vertical-align: top;
+  }
+
+  .parent2 {
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    flex-direction: row;
+
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  .child2 {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: top;
+  }
+
+  .resume{
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 187);
+    animation: pulse 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
