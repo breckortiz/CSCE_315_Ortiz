@@ -37,14 +37,14 @@
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
-    height: 90%;
-    width: 90%;
+    height: 40%;
+    width: 30%;
     border: 1px solid #ddd;
   }
 
   h3{
-    color: rgba(166, 166, 166, 0.63);
-    font-family: "Times New Roman", Times, serif;
+    color: rgba(92, 92, 92, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -53,30 +53,27 @@
     margin-top: 5px;
     margin-bottom: 5px;
 
-    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
   p{
-    color: rgba(201, 201, 201, 0.63);
-    font-family: "Times New Roman", Times, serif;
+    color: rgba(45, 45, 45, 0.63);
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
   }
 
   body {
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(211, 211, 211);
   }
   .row {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   .column {
-    margin: 10px;
-    width: 90px;
-    height: 90px;
-    object-fit: cover;
-
+    flex: 13.33%;
+    padding: 5px;
   }
 
   a{
@@ -91,14 +88,14 @@
     overflow: hidden;
     margin-bottom: 10px;
     margin-top: 10px;
-    color:white;
+    color:black(139, 139, 139, 0.63);
   }
   .video-label {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 5px;
   }
 
@@ -118,16 +115,5 @@
   }
 
   .switchButton{
-    color: rgb(0, 207, 253);
-  }
-
-  .parent {
-    margin: 1rem;
-    padding: 2rem 2rem;
-    text-align: center;
-  }
-  .child {
-    display: inline-block;
-    padding: 1rem 1rem;
-    vertical-align: top;
+    color:rgb(255, 0, 0);
   }
